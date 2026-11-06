@@ -1,0 +1,286 @@
+body{
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+
+    
+
+}
+
+header{
+    display: flex;
+    background-color: var(--dark-header);
+    flex-direction: column;
+
+
+
+
+
+}
+tr>td>img{ width: 90px;
+    height: 90px;
+
+
+
+}
+.mm{
+    display: flex;
+    flex-direction:row;
+
+
+
+}
+table,th,td{border-collapse: collapse;
+    border: 1px solid black;
+}
+th{ background-color: var(--dark-nav);
+color: white;}
+tr>td:nth-child(4){color: red;}
+#li{ color: var(--primary-color);
+
+input[types="submit"]{background-color: var(--primary-color);
+color: white;}
+
+}
+header h1{
+    color: white;
+}
+.c1{
+
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+    background-color: var(--dark-nav);
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    padding: 4px;
+
+    
+}
+a:hover{ background-color: var(--primary-hover);
+
+
+}
+#ins{ color: var(--primary-color);
+
+
+
+}
+
+span{width: 50px;
+height: 50px;
+color: white;
+border-radius: 5px;
+background-color: var(--primary-color);
+padding-top: 5%;
+margin: 5px;
+}
+footer{
+
+    background-color: var(--dark-header);
+}
+input[type=submit]{
+background-color: var(--primary-color);
+color: white;
+border-radius: 5px;
+}
+ul>li:nth-child(2)>ul>li>ul{
+    list-style-type: disc;
+
+
+}
+#ta{
+
+    width: 400px;
+    border: 0;
+}
+#t{
+
+
+
+    background-color: var(--border-placeholder);
+    border-radius: 2px;
+}
+.tata{ width: 1500px;
+    height: 500px;
+}
+dt{
+    color: var(--primary-color);
+    content: "|";
+}
+hr{
+    color: var(--primary-color);
+}
+.tatf{
+
+    margin-left: 400px;
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+ @media(min-width:610px){
+    #ta{ width: 400px; }
+.tata{ width: 1500px; height: 500px; }
+.tatf{ margin-left: 400px; width: auto; }
+.tatf tr{ display: flex; }
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+    
+}
+body{display: grid;
+    grid-template-rows: 50px 1fr 30px;
+
+
+
+}
+footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 115px;
+    
+
+
+}
+.cont1{display: grid;
+    grid-template-rows: 3.7fr 0.5fr;}
+
+.cont{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: var(--bg-card);
+}
+#contpc{
+
+
+    display: flex;
+    align-items: center;
+padding-left: 400px;
+}
+
+
+
+ 
+
+
+}
+:root {
+/* Couleurs principales & Thème */
+--primary-color: #007bff; /* Bleu principal(Boutons,Liens au survol, bordures)*/
+--primary-hover:  #0056b3; /* Bleu foncé (Effet survol bouton/lien) */
+--dark-header: #1a252f; /* Fond En-tête, Pied de page, Titre tableau */
+--dark-nav: #2c3e50; /* Fond des boutons du menu de navigation */
+--dark-sub-header: #34495e; /* Sous-titres du tableau des horaires */
+/* Couleurs de fond */
+--bg-body: #f4f6f9; /* Fond général de la page */
+--bg-card: #ffffff; /* Fond des cartes / conteneurs */
+--bg-search: #e9ecef; /* Fond de la barre de recherche */
+--bg-placeholder: #e2e8f0; /* Fond des emplacements d'images */
+/* Couleurs de texte */
+--text-primary: #333333; /* Couleur de texte principal */
+--text-muted: #4a5568; /* Texte de définition / secondaire */
+--text-light: #ffffff; /* Texte clair sur fond sombre */
+--text-placeholder: #64748b; /* Texte des images d'illustration */
+--text-price: #d9534f; /* Rouge pour l'affichage des prix */
+/* Couleurs de bordures */
+--border-color: #dddddd; /* Bordures des cartes */
+--border-table: #cccccc; /* Bordures des tableaux */
+--border-placeholder: #cbd5e1; /* Bordures des espaces images */}
+
+
+main{ padding: 0 12px; }
+
+header > div:last-child{
+    display: flex;
+    gap: 6px;
+}
+
+img{ height: auto; }
+
+.tatf{
+    width: auto;
+    height: auto;
+}
+.tatf, .tatf tbody{ display: block; }
+.tatf tr{
+    display: flex;
+}
+.tatf td{
+    box-sizing: border-box;
+    padding: 6px;
+}
+.tatf input[type="text"],
+.tatf input[type="email"],
+.tatf input[type="tel"],
+.tatf input[type="date"],
+.tatf select,
+.tatf textarea{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.tatf button{ padding: 8px 16px; font-size: 16px; }
+
+
+
+body{
+    background-color: var(--bg-body);
+    color: var(--text-primary);
+}
+main{
+    background-color: var(--bg-card);
+}
+h2{
+    color: var(--dark-header);
+}
+hr{
+    border-color: var(--primary-color);
+}
+label{
+    color: var(--text-primary);
+}
+input, select, textarea{
+    background-color: var(--bg-card);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+button{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--text-light);
+}
+button:hover{
+    background-color: var(--primary-hover);
+}
+footer{
+    color: var(--text-light);
+}
+a[href="inscription.html"]{
+    background-color: var(--primary-color);
+}
+a[href="inscription.html"]:hover{
+    background-color: var(--primary-hover);
+}
+
+
+body{ grid-template-columns: minmax(0, 1fr); }
+main{ min-width: 0;}
+#ta{ width: 100%; box-sizing: border-box; }
+.tata{ width: 100%; height: auto; }
+.tatf{ margin-left: 0; width: 100%; }
+
